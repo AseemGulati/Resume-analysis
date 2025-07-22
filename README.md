@@ -42,9 +42,13 @@ The app provides the following insights:
 
 ## 🏗️ Architecture
 
-<pre> resume-analysis.ai/ │ ├── app.py # Frontend with Streamlit UI ├── analysis.py # Generates insights 
-   using Gemini LLM ├── pdf.py # Extracts text from uploaded PDF resumes ├── requirements.txt # Required 
-   dependencies └── .env # Environment variables (API key) </pre>
+<pre> resume-analysis.ai/ 
+   │ 
+   ├── app.py # Frontend with Streamlit UI 
+   ├── analysis.py # Generates insights using Gemini LLM 
+   ├── pdf.py # Extracts text from uploaded PDF resumes 
+   ├── requirements.txt # Required dependencies 
+   └── .env # Environment variables (API key) </pre>
 
 
 - `app.py`: Main entry point – handles UI, collects resume & JD, and displays LLM outputs.
